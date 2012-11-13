@@ -1,6 +1,9 @@
 {
-  "name": "max",
-  "version": "0.0.0",
+  "name": "max-component",
+  "version": "0.0.1",
+  "dependencies": {
+    "to-function": "*"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
