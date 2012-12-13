@@ -15,7 +15,7 @@ var toFunction = require('to-function');
  */
 
 module.exports = function(arr, fn){
-  var max = 0;
+  var max = -Infinity;
 
   if (fn) {
     fn = toFunction(fn);

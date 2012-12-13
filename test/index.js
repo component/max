@@ -23,4 +23,7 @@ describe('max(arr)', function(){
   it('should return the max value', function(){
     max([1,5,2]).should.equal(5);
   })
+  it('should support negative numbers', function(){
+    max([-1,-5,-2]).should.equal(-1);
+  })
 })
