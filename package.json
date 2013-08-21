@@ -12,5 +12,9 @@
     "scripts": {
       "max": "index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/max.git"
   }
 }
